@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n○ Join : <code>@New_Telugu_Cinemas_bot ⚡</code>\n○ Contact Me : <a href='https://telegram.me/NewTeluguCinemas_bot'>Click here</a>\n○ New Telugu Cinemas : <a href='https://t.me/Mdisk_Telugu_Dubbed_Movies'>Click here</a>\n○ Channel : @New_Telugu_Cinemas_bot ⚡\n○ Support Me : @New_Telugu_Cinemas_bot ⚡</b>",
+            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n○ Join : <code>@New_Telugu_Cinemas_bot ⚡</code>\n○ Contact Me : <a href='https://telegram.me/NewTeluguCinemas_bot'>Click here</a>\n○ New Telugu Cinemas : <a href='https://t.me/+MHOBI6hMQ1U2ZTA1'>Click here</a>\n○ Channel : @New_Telugu_Cinemas_bot ⚡\n○ Support Me : @New_Telugu_Cinemas_bot ⚡</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
